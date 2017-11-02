@@ -13,6 +13,6 @@ public class RunnableBracketMatcher implements Runnable {
     }
 
     public void run() {
-        System.out.println(mOrder + ":" + Brackets.isWellFormed(mBrackets));
+        System.out.println(mOrder + ":" + BracketsUtils.isWellFormed(mBrackets));
     }
 }
