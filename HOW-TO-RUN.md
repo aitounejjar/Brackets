@@ -13,5 +13,10 @@ Run the program from the Command Line<br/>
 3- Run the class file: java Main<br/><br/>
 
 Run from an IDE (I used IntelliJ)<br/>
-1- Import the Maven project, and enable auto-import for dependencies<br/>
+1- Import and configure the Maven project<br/>
 2- Run Main.java<br/>
+3- You can also run the Tests class.
+
+# Known Issue
+My code flags the input "[(){}]" as true ,i.e.: well formed, while the provided "results.txt" is showing a result of false.
+I had to commit the code with this known issue because of the time constraint, and because I'm not entirely sure which rule(s) this input actually breaks.
